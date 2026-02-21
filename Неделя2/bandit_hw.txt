@@ -1,0 +1,8 @@
+connect_cmd: ssh bandit0@bandit.labs.overthewire.org -p 2220
+b0 -> b1 (just cat readme): ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+b1 -> b2 (to see '-' dash-file content use full path to it a.k.a cat ./-): 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+b2 -> b3 (to see '--file with spaces in its name--' use doudle quotes aka cat "--file with spaces--"): MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+b3 -> b4 (use cd to change dir, use ls -la to see all hidden files): 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+b4 -> b5: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+b5 -> b6 (The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties: human-readable; 1033 bytes in size; not executable; find . -type f -size 1033c ! -executable -exec file {} +): HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+b6 -> b7 (find / -type f -user bandit7 -group bandit6 -size 33c -exec file {} + 2>/dev/null, чтобы найти во всей ОС с владельцем и группой, при этом ошибку доступа погасить): morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj  
